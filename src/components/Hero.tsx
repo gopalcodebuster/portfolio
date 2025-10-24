@@ -9,21 +9,20 @@ const Hero = () => {
       <div className="absolute top-20 left-20 w-32 h-32 bg-primary/20 rounded-full blur-3xl"></div>
       <div className="absolute bottom-20 right-20 w-40 h-40 bg-accent/20 rounded-full blur-3xl"></div>
       
-      <div className="container mx-auto px-6 text-center relative z-10">
-        <div className="max-w-4xl mx-auto">
-          {/* Profile Image */}
-          <div className="mb-8">
-            <div className="w-32 h-32 mx-auto rounded-full bg-gradient-primary p-1">
-              <div className="w-full h-full rounded-full bg-secondary flex items-center justify-center text-4xl font-bold gradient-text">
-                GE
-              </div>
-            </div>
-          </div>
+      <div className="text-center">
+  {/* Profile Image */}
+  <img
+    src="/your-image.jpg"
+    alt="Gopal Engineer"
+    className="w-32 h-32 md:w-48 md:h-48 rounded-full mx-auto mb-6 shadow-lg transition-transform duration-300 hover:scale-105"
+  />
 
-          {/* Introduction */}
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 transition-smooth">
-            Hi, I'm <span className="gradient-text">Gopal Engineer</span>
-          </h1>
+  {/* Introduction */}
+  <h1 className="text-5xl md:text-7xl font-bold mb-6 transition-smooth">
+    Hi, I'm <span className="gradient-text">Gopal Engineer</span>
+  </h1>
+</div>
+
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-4">
             Full Stack MERN Developer
