@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="text-center">
   {/* Profile Image */}
   <img
-    src="/your-image.jpg"
+    src="/image.jpg"
     alt="Gopal Engineer"
     className="w-32 h-32 md:w-48 md:h-48 rounded-full mx-auto mb-6 shadow-lg transition-transform duration-300 hover:scale-105"
   />
